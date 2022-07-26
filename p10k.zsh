@@ -1,0 +1,1 @@
+/home/edurf/.p10k.zsh
