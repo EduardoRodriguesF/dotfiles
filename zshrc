@@ -1,1 +1,0 @@
-/home/edurf/.zshrc

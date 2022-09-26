@@ -1,0 +1,13 @@
+[user]
+	name = EduardoRodriguesF
+	email = eduardo.rodrigues@econverse.com.br
+[advice]
+	addignoredfile = false
+[core]
+	editor = nvim
+[pull]
+	rebase = false
+[diff]
+	tool = nvimdiff
+[merge]
+	tool = nvimdiff
