@@ -28,7 +28,7 @@ You can easily cURL my files into your machine! Just run the command below:
 curl -Lks https://gist.githubusercontent.com/EduardoRodriguesF/600ed2f94ad4bdba947fbdf0ca698a9e/raw | bash
 ```
 
-In case you despise cURL, you can also access the same URL above, copy paste the content into your terminal and everything will be fine.
+Alternatively, you can access the gist [here](https://gist.github.com/EduardoRodriguesF/600ed2f94ad4bdba947fbdf0ca698a9e) and execute directly in your terminal.
 
 ### Will I lose my files?
 
