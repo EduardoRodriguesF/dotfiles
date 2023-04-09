@@ -1,0 +1,15 @@
+[user]
+	email = eduardo.rodrigues@econverse.com.br
+	name = EduardoRodriguesF
+[advice]
+	addIgnoredFile = false
+[core]
+	editor = nvim
+[pull]
+	rebase = false
+[diff]
+	tool = nvimdiff
+[merge]
+	tool = nvimdiff
+[alias]
+	last = log -1 HEAD
