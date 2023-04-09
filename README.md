@@ -4,7 +4,7 @@ This is the setup I use for my ArchWSL environment.
 
 I do tinker with it a lot, so a CHANGELOG will be available soon documenting any notable change.
 
-![image](https://user-images.githubusercontent.com/44787022/230793496-b97cea20-a314-47ac-bf01-c489d0b72160.png)
+![Terminal screenshot](https://user-images.githubusercontent.com/44787022/230793846-f042563e-6c92-4bb8-bd20-fd7dd5d5bfc3.png)
 > Screenshot from Windows Terminal with [Omni theme](https://github.com/getomni/windows-terminal) and [JetBrains Mono font](https://www.jetbrains.com/lp/mono/).
 
 ## Features
