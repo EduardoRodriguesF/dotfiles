@@ -5,7 +5,7 @@ setopt autocd
 unsetopt beep
 bindkey -v
 
-zstyle :compinstall filename '/home/edurf/.zshrc'
+zstyle :compinstall filename '$HOME/.zshrc'
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -28,11 +28,11 @@ source /opt/asdf-vm/asdf.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # pnpm
-export PNPM_HOME="/home/edurf/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 # bun completions
-[ -s "/home/edurf/.bun/_bun" ] && source "/home/edurf/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
