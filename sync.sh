@@ -15,4 +15,8 @@ if [ $? = 0 ]; then
 fi;
 
 dotfiles checkout
+
+dotfiles submodule init
+dotfiles submodule update
+
 dotfiles config status.showUntrackedFiles no
