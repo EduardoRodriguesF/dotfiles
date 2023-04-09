@@ -4,6 +4,22 @@ This is the setup I use for my ArchWSL environment.
 
 I do tinker with it a lot, so a CHANGELOG will be available soon documenting any notable change.
 
+## Features
+
+Below is a list of the packages you might need to install to make things work.
+
+- asdf
+- bat
+- exa
+- fzf
+- [neovim](https://github.com/EduardoRodriguesF/nvim)
+- starship
+- tmux
+- zoxide
+- zsh
+
+Ensure they are all installed using your preferred package manager, and don't forget to upgrade your packages before doing so!
+
 ## Installation
 
 You can easily cURL my files into your machine! Just run the command below:
