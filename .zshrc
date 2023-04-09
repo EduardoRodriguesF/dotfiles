@@ -17,7 +17,6 @@ export PATH="$PATH:$(yarn global bin)"
 alias ls="exa --icons"
 alias lh="exa --icons -lha"
 alias bat="bat --style=auto"
-alias vtex="npx vtex"
 alias vi="nvim"
 alias aseprite="/mnt/c/Program\ Files\ \(x86\)/Steam/steamapps/common/Aseprite/Aseprite.exe"
 
