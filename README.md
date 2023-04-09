@@ -25,6 +25,8 @@ Ensure they are all installed using your preferred package manager, and don't fo
 
 ## Installation
 
+### 1. Download files
+
 You can easily cURL my files into your machine! Just run the command below:
 
 ```bash
@@ -32,6 +34,14 @@ curl -Lks https://gist.githubusercontent.com/EduardoRodriguesF/600ed2f94ad4bdba9
 ```
 
 Alternatively, you can access the gist [here](https://gist.github.com/EduardoRodriguesF/600ed2f94ad4bdba947fbdf0ca698a9e) and execute directly in your terminal.
+
+### 2. Set default shell
+
+If you don't use `zsh` yet, run the command below to make it your default shell:
+
+```bash
+chsh -s $(which zsh)
+```
 
 ### Will I lose my files?
 
