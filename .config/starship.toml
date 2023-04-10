@@ -15,7 +15,7 @@ show_always = true
 format = '[$user]($style) '
 
 [git_status]
-format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](red) ($ahead_behind$stashed)](green)"
+format = "([[(*$conflicted$untracked$modified$staged$renamed$deleted)](red)($ahead_behind$stashed)](green) )"
 ahead = '⇡${count}'
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 behind = '⇣${count}'
@@ -133,6 +133,9 @@ SUSE = " "
 Ubuntu = " "
 Unknown = " "
 Windows = " "
+
+[package]
+symbol = " "
 
 [pijul_channel]
 symbol = "🪺 "
