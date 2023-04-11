@@ -134,9 +134,6 @@ Ubuntu = " "
 Unknown = " "
 Windows = " "
 
-[package]
-symbol = " "
-
 [pijul_channel]
 symbol = "🪺 "
 
