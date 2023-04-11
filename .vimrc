@@ -65,9 +65,9 @@ noremap <c-right> <c-w><
 xnoremap p _dP
 
 " Yank to system clipboard
-nnoremap <leader>y \"+y
-vnoremap <leader>y \"+y
-nnoremap <leader>Y \"+Y
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+Y
 
 " Quickfix list
 nnoremap <leader>q :copen
