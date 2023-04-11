@@ -21,9 +21,6 @@ diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 behind = '⇣${count}'
 stashed = "≡"
 
-[package]
-symbol = " "
-
 [aws]
 symbol = "  "
 
