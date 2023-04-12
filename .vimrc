@@ -77,6 +77,13 @@ nnoremap <leader>Q :close
 nnoremap <leader>l :lopen
 nnoremap <leader>L :lclose
 
+" Centers view
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+
+nnoremap n nzzzv
+nnoremap n nzzzv
+
 " Move Visual blocks with J an K
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
