@@ -20,6 +20,9 @@ vimcmd_symbol = '[](bold cyan)'
 show_always = true
 format = '[$user]($style) '
 
+[directory]
+read_only = " "
+
 [git_status]
 format = "([[(*$conflicted$untracked$modified$staged$renamed$deleted)](red)($ahead_behind$stashed)](green) )"
 ahead = '⇡${count}'
@@ -41,9 +44,6 @@ symbol = " "
 
 [dart]
 symbol = " "
-
-[directory]
-read_only = " "
 
 [docker_context]
 symbol = " "
