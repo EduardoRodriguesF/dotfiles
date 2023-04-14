@@ -9,7 +9,7 @@ $character'''
 [character]
 success_symbol = '[](bold green)'
 error_symbol = '[](bold red)'
-vimcmd_symbol = '[](bold cyan)'
+vimcmd_symbol = '[](bold blue)'
 
 # Not supported in ZSH :(
 # vimcmd_replace_one_symbol = '[](bold purple)'
@@ -21,6 +21,7 @@ show_always = true
 format = '[$user]($style) '
 
 [directory]
+style = "bold blue"
 read_only = " "
 
 [git_status]
