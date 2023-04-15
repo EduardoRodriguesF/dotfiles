@@ -62,7 +62,7 @@ noremap <c-left> <c-w>>
 noremap <c-right> <c-w><
 
 " Paste without losing register
-xnoremap p _dP
+xnoremap <leader>p "_dP
 
 " Yank to system clipboard
 nnoremap <leader>y "+y
