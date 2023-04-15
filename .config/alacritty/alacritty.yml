@@ -7,7 +7,7 @@ window:
     dynamic_padding: true
   dimensions:
     columns: 160
-    lines: 45
+    lines: 40
   opacity: 0.98
   decorations: none
 
