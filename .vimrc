@@ -71,7 +71,7 @@ nnoremap <leader>Y "+Y
 
 " Quickfix list
 nnoremap <leader>q :copen<cr>
-nnoremap <leader>Q :close<cr>
+nnoremap <leader>Q :cclose<cr>
 
 " Location list
 nnoremap <leader>l :lopen<cr>
