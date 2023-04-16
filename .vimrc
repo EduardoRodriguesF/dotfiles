@@ -70,12 +70,12 @@ vnoremap <leader>y "+y
 nnoremap <leader>Y "+Y
 
 " Quickfix list
-nnoremap <leader>q :copen
-nnoremap <leader>Q :close
+nnoremap <leader>q :copen<cr>
+nnoremap <leader>Q :close<cr>
 
 " Location list
-nnoremap <leader>l :lopen
-nnoremap <leader>L :lclose
+nnoremap <leader>l :lopen<cr>
+nnoremap <leader>L :lclose<cr>
 
 " Centers view
 nnoremap <C-u> <C-u>zz
