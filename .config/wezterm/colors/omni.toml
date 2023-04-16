@@ -1,0 +1,82 @@
+[colors]
+ansi = [
+    '#191622', # Black (Background)
+    '#E96379', # Red
+    '#67E480', # Green
+    '#E7DE79', # Yellow
+    '#988BC7', # Purple
+    '#FF79C6', # Pink
+    '#78D1E1', # Cyan / Blue
+    '#E1E1E6', # White
+]
+background = '#191622'
+brights = [
+    '#191622', # Black
+    '#E96379', # Red
+    '#67E480', # Green
+    '#E7DE79', # Yellow
+    '#988BC7', # Purple
+    '#FF79C6', # Pink
+    '#78D1E1', # Cyan / Blue
+    '#E1E1E6', # White
+]
+compose_cursor = '#ffb86c'
+cursor_bg = '#E1E1E6'
+cursor_border = '#E1E1E6'
+cursor_fg = '#282a36'
+foreground = '#E1E1E6'
+scrollbar_thumb = '#41414D'
+selection_bg = '#41414D'
+selection_fg = 'rgba(0% 0% 0% 0%)'
+split = '#6272a4'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#191622'
+
+[colors.tab_bar.active_tab]
+bg_color = '#988BC7'
+fg_color = '#282a36'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#282a36'
+fg_color = '#E1E1E6'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#6272a4'
+fg_color = '#E1E1E6'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#282a36'
+fg_color = '#E1E1E6'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#FF79C6'
+fg_color = '#E1E1E6'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = 'EduardoRodriguesF'
+name = 'Omni'
+origin_url = 'https://github.com/EduardoRodriguesF/wezterm'
