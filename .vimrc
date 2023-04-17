@@ -42,6 +42,9 @@ endif
 " Remaps
 let mapleader = ' '
 
+" Open file explorer
+nnoremap <leader>pe :Ex<cr>
+
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
 nnoremap N Nzz
