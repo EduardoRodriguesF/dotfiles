@@ -90,3 +90,6 @@ nnoremap n nzzzv
 " Move Visual blocks with J an K
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+" Reload vim configs
+nnoremap <leader>s :source $MYVIMRC<cr>
