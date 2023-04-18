@@ -26,6 +26,12 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 set updatetime=150
 
+" netrw has liststyle types which you can search in \:help netrw
+let g:netrw_liststyle = 2 
+
+" Set window size for :Lex
+let g:netrw_winsize = 25
+
 if has("nvim")
     set noshowmode " Prefers Neovim's Lualine mode display
 
