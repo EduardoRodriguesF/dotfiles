@@ -11,7 +11,7 @@ I do tinker with it a lot, so a CHANGELOG will be available soon documenting any
 
 Below is a list of the packages you might need to install to make things work.
 
-- asdf
+- asdf-vm
 - bat
 - exa
 - fzf
