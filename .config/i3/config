@@ -194,4 +194,16 @@ bar {
 		bindsym button5 exec ~/.i3/scripts/custom_wheel_down
 
 		separator_symbol "⁞"
+
+		colors {
+			background #191622
+			statusline #E1E1E6
+			separator #44475a
+
+			focused_workspace  #78D1E1 #78D1E1 #000000
+			active_workspace   #333333 #5f676a #E1E1E6
+			inactive_workspace #191622 #191622 #E1E1E6
+			urgent_workspace   #E96379 #191622 #E1E1E6
+			binding_mode       #2f343a #900000 #E1E1E6
+		}
 }
