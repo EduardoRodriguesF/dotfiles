@@ -17,6 +17,8 @@ alias ls="exa --icons"
 alias lh="exa --icons -lha"
 alias bat="bat --style=auto"
 alias vi="nvim"
+
+# WSL only
 alias aseprite="/mnt/c/Program\ Files\ \(x86\)/Steam/steamapps/common/Aseprite/Aseprite.exe"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
