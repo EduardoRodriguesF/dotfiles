@@ -17,6 +17,7 @@ alias ls="exa --icons"
 alias lh="exa --icons -lha"
 alias bat="bat --style=auto"
 alias vi="nvim"
+alias please="sudo !!"
 
 # WSL only
 alias aseprite="/mnt/c/Program\ Files\ \(x86\)/Steam/steamapps/common/Aseprite/Aseprite.exe"
