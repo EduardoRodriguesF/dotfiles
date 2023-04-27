@@ -17,7 +17,7 @@ config.color_scheme = 'Omni'
 
 -- Fonts
 config.font = wezterm.font 'JetBrains Mono'
-config.font_size = 12
+config.font_size = 14
 
 -- No need for prompts while using tmux
 config.window_close_confirmation = 'NeverPrompt'
