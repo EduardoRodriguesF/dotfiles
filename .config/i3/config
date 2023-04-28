@@ -183,3 +183,5 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+client.focused_workspace #FF79C6 #000000 #000000
