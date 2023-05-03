@@ -8,9 +8,9 @@
 [pull]
 	rebase = false
 [diff]
-	tool = vimdiff
+	tool = nvimdiff
 [merge]
-	tool = vimdiff
+	tool = nvimdiff
 [alias]
 	last = log -1 HEAD
 [mergetool]
