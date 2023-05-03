@@ -8,8 +8,10 @@
 [pull]
 	rebase = false
 [diff]
-	tool = nvimdiff
+	tool = vimdiff
 [merge]
-	tool = nvimdiff
+	tool = vimdiff
 [alias]
 	last = log -1 HEAD
+[mergetool]
+	keepBackup = false
