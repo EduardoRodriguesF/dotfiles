@@ -14,6 +14,7 @@ set tabstop=4
 set scrolloff=5
 
 set showcmd
+set cmdheight=0
 
 set nobackup
 set noswapfile
