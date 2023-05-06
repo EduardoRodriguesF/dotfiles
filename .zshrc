@@ -12,6 +12,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-completions/zsh-completions.plugin.zsh
 
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+export PATH="$HOME/.tmuxifier/bin:$PATH"
 
 alias ls="exa --icons"
 alias lh="exa --icons -lha"
