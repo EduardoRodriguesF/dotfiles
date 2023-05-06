@@ -5,7 +5,11 @@ setopt autocd
 unsetopt beep
 bindkey -v
 
+autoload -Uz compinit && compinit
+
 zstyle :compinstall filename '$HOME/.zshrc'
+# Case-insenstive whenever there is no case-sensitive matches
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
