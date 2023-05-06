@@ -20,6 +20,7 @@ Below is a list of the packages you might need to install to make things work.
 - tmux
 - zoxide
 - zsh
+- atuin
 
 Ensure they are all installed using your preferred package manager, and don't forget to upgrade your packages before doing so!
 
