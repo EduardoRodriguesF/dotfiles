@@ -21,6 +21,7 @@ Below is a list of the packages you might need to install to make things work.
 - zoxide
 - zsh
 - atuin
+- thefuck
 
 Ensure they are all installed using your preferred package manager, and don't forget to upgrade your packages before doing so!
 
@@ -47,3 +48,11 @@ chsh -s $(which zsh)
 ### Will I lose my files?
 
 Nothing will be deleted nor overwritten! Every file that causes conflict will be moved to `~/.dotfiles-backup` so the checkout goes smoothly.
+
+## Tools I Use
+
+- **Audio management**: [pamixer](https://github.com/cdemoulins/pamixer)
+
+## For i3
+
+- rofi

@@ -3,6 +3,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd
 unsetopt beep
+
 bindkey -v
 
 autoload -Uz compinit && compinit
@@ -53,6 +54,7 @@ export SPACESHIP_GIT_STATUS_UNTRACKED="%F{blue}•%F{red}"
 export SPACESHIP_GIT_STATUS_DELETED="%F{green}•%F{red}"
 export SPACESHIP_GIT_STATUS_MODIFIED="%F{red}•%F{red}"
 
+eval "$(thefuck --alias)"
 eval "$(atuin init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
