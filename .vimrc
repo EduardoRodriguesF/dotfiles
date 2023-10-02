@@ -12,9 +12,9 @@ set mouse=c
 set shiftwidth=4
 set tabstop=4
 set scrolloff=5
+set expandtab
 
 set showcmd
-set cmdheight=0
 
 set nobackup
 set noswapfile
