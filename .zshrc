@@ -22,7 +22,7 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 alias ls="exa --icons"
 alias lh="exa --icons -lha"
 alias bat="bat --style=auto"
-alias vi="nvim"
+alias v="nvim"
 alias please="sudo !!"
 
 # WSL only
