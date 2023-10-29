@@ -47,7 +47,7 @@ endif
 let mapleader = ' '
 
 " Open file explorer
-nnoremap <leader>f :Ex<cr>
+nnoremap <leader>d :Ex<cr>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
