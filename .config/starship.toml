@@ -7,9 +7,9 @@ $character'''
 
 # Replace the '❯' symbol in the prompt with '➜'
 [character]
-success_symbol = '[](bold green)'
-error_symbol = '[](bold red)'
-vimcmd_symbol = '[](bold blue)'
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+vimcmd_symbol = '[➜](bold blue)'
 
 # Not supported in ZSH :(
 # vimcmd_replace_one_symbol = '[](bold purple)'
