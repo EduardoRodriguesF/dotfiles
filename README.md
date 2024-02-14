@@ -1,8 +1,6 @@
 # Eduardo's Dotfiles
 
-This is the setup I use for my ArchWSL environment.
-
-I do tinker with it a lot, so a CHANGELOG will be available soon documenting any notable change.
+Unix development setup.
 
 ![Terminal screenshot](https://user-images.githubusercontent.com/44787022/230793846-f042563e-6c92-4bb8-bd20-fd7dd5d5bfc3.png)
 > Screenshot from Windows Terminal using [Omni](https://github.com/getomni/windows-terminal) theme and [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font family.
