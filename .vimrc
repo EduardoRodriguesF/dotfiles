@@ -56,12 +56,6 @@ nnoremap N Nzz
 " Yank from cursor to the end of line.
 nnoremap Y y$
 
-" Split view navigation
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
-
 " Resize panels
 noremap <c-up> <c-w>+
 noremap <c-down> <c-w>-
@@ -79,6 +73,8 @@ nnoremap <leader>Y "+Y
 " Quickfix list
 nnoremap <leader>q :copen<cr>
 nnoremap <leader>Q :cclose<cr>
+nnoremap <C-j> :cnext<cr>
+nnoremap <C-k> :cprev<cr>
 
 " Location list
 nnoremap <leader>l :lopen<cr>
