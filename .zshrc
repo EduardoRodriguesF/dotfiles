@@ -19,6 +19,11 @@ source ~/.zsh/zsh-completions/zsh-completions.plugin.zsh
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 
+export DENO_INSTALL="/Users/edurf/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+export PATH=$PATH:/usr/local/git/bin:/usr/local/bin
+
 alias ls="exa --icons"
 alias lh="exa --icons -lha"
 alias bat="bat --style=auto"
